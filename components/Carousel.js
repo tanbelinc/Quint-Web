@@ -12,6 +12,7 @@ const settings = {
   autoplay: true,
   speed: 1000,
   autoplaySpeed: 2000,
+  arrows: false,
 };
 
 export default function Carousel() {
