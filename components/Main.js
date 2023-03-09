@@ -1,19 +1,22 @@
+import Carousel from "./Carousel";
+
 export default function Main() {
   return (
     <section className="text-gray-600 body-font">
       <div className="max-w-7xl h-[100vh] mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 pt-6 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900">
-            We are making Stunning Websites
+          <h1 className="mb-5 text-5xl items-center Avenir xl:w-2/2 text-gray-900">
+            Boost your productivity with Quint
           </h1>
           <p className="mb-4 xl:w-3/4 text-gray-600 text-lg">
-            quint is a free to use website template for websites made with
-            Next.js and styled with Tailwind CSS
+            This extension provides integration with AI. It allows you to get
+            answers to your questions from AI.
           </p>
           <div className="flex justify-center">
             <a
               className="inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
-              href="https://github.com/r1/quint/"
+              target="_blank"
+              href="https://chrome.google.com/webstore/detail/quint/cpfenkdelebadjcallloeakkbgpnakio"
             >
               <span className="justify-center">Find out more</span>
             </a>
@@ -25,10 +28,10 @@ export default function Main() {
             alt="iPhone-12"
             src="/images/iPhone-12-Mockup.png"
           ></img> */}
-          <img className="md:ml-1 " src="./images/hero.png"/>
+          <img className="md:ml-1 " src="./images/hero.png" />
         </div>
       </div>
-      <section className="mx-auto">
+      {/* <section className="mx-auto">
         <div className="container px-5 mx-auto lg:px-24 ">
           <div className="flex flex-col w-full mb-4 text-left lg:text-center">
             <h1 className="mb-8 text-2xl Avenir font-semibold text-black">
@@ -66,21 +69,24 @@ export default function Main() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <div className="grr max-w-7xl pt-20 mx-auto text-center">
         <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-900">
-          Less code, less effort.
+          Next Gen AI Assistant
         </h1>
         <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-600 text-center">
-          Minify your CSS with Tailwind's built in PostCSS support.
+          Get any of your answers in a matter of seconds. AI will help you to
+          <br />
+          get the best results based on your query.
         </h1>
-        <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
+        <Carousel />
+        {/* <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
           <img
             className="object-cover object-center w-3/4 mb-10 g327 border rounded-lg shadow-md"
             alt="Placeholder Image"
             src="./images/placeholder.png"
           ></img>
-        </div>
+        </div> */}
       </div>
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">

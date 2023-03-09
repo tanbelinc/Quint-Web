@@ -50,7 +50,8 @@ export default function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <a
-                  href="/"
+                  href="https://tanbelinc.github.io/Tanbel/#Contact"
+                  target="_blank"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Careers
@@ -58,7 +59,8 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="https://tanbelinc.github.io/Tanbel/"
+                  target="_blank"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   About Us
@@ -67,7 +69,8 @@ export default function Header() {
               <li>
                 <a
                   className="inline-flex items-center px-4 py-2 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent rounded-lg text-md md:mt-0 md:ml-4 bg-gray-900"
-                  href="/"
+                  target="_blank"
+                  href="https://chrome.google.com/webstore/detail/quint/cpfenkdelebadjcallloeakkbgpnakio"
                 >
                   <span className="justify-center">Download</span>
                   <svg
