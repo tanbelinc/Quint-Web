@@ -88,7 +88,7 @@ export default function Main() {
           ></img>
         </div> */}
       </div>
-      <section className="relative">
+      {/* <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <div className="py-24 md:py-36">
             <h1 className="mb-5 text-6xl Avenir font-semibold text-gray-900">
@@ -112,7 +112,7 @@ export default function Main() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 }

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="pb-4">
-      <div className="max-w-6xl xl:max-w-6xl mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
+      {/* <div className="max-w-6xl xl:max-w-6xl mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
         <ul className="Footer_nav__2rFid text-sm font-medium  sm:pb-20 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10">
           <li className="space-y-5 row-span-2">
             <h2 className="text-sm tracking-wide text-gray-900 uppercase font-bold">
@@ -196,6 +196,13 @@ export default function Footer() {
             </a>
           </ul>
         </div>
+      </div> */}
+      <hr className="mt-40"/>
+      <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+        Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
+        <a href="https://web3templates.com/" target="_blank" rel="noopener">
+          Tanbel.
+        </a>
       </div>
     </footer>
   );
